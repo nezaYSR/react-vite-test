@@ -30,8 +30,7 @@ Vite based React App, using MUI, Lottie, SCSS, Docker.
 <h3>Screenshots</h3>
 
 <img src="src/assets/screenshoot/login.jpg" alt="Logo" height="500">
-Login Screen (if user dont have any token in browser's local storage will redirect to "/login")
-=============
+## Login Screen (if user dont have any token in browser's local storage will redirect to "/login")
 
 <img src="src/assets/screenshoot/homey.jpg" alt="Logo" height="500">
 After user login automatically navigate to "/", and supposedly cannot go to "/login"
