@@ -30,20 +30,17 @@ Vite based React App, using MUI, Lottie, SCSS, Docker.
 <h3>Screenshots</h3>
 
 <img src="src/assets/screenshoot/login.jpg" alt="Logo" height="500">
-## Login Screen (if user dont have any token in browser's local storage will redirect to "/login")
+    Login Screen (if user dont have any token in browser's local storage will redirect to "/login")
 
 <img src="src/assets/screenshoot/homey.jpg" alt="Logo" height="500">
-After user login automatically navigate to "/", and supposedly cannot go to "/login"
-look at small magnifier at left top if you click it will expand search form
-=============
+    After user login automatically navigate to "/", and supposedly cannot go to "/login"
+    look at small magnifier at left top if you click it will expand search form
 
 <img src="src/assets/screenshoot/searchy.jpg" alt="Logo" height="500">
-Then you can hit "Save Filter" on the bottom sidebar to begin filtering user
-=============
+    Then you can hit "Save Filter" on the bottom sidebar to begin filtering user
 
 <img src="src/assets/screenshoot/exclude.jpg" alt="Logo" height="500">
-Try to add or remove tags in Include Tags by checking the checkbox in prefix Tags then hit middle button
-=============
+    Try to add or remove tags in Include Tags by checking the checkbox in prefix Tags then hit middle button
 
 <img src="src/assets/screenshoot/search_name.jpg" alt="Logo" height="500">
-Search name is working
+    Search name is working
