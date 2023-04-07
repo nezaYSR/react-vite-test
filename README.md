@@ -10,10 +10,10 @@
 
 <img src="src/assets/screenshoot/lowgo.jpg" alt="Logo" height="80">
 
-###Tech Explanation
+<h1>Tech Explanation</h1>
 Vite based React App, using MUI, Lottie, SCSS, Docker.
 
-####How to run
+<h3>How to run</h3>
 
     Git clone
     npm i / npm i --force (in case brute force is needed)
@@ -21,10 +21,26 @@ Vite based React App, using MUI, Lottie, SCSS, Docker.
     docker run -p 8080:8080 <container name>
     go to http://localhost:8080/
 
-Or simply run
+<h3>Or simply run</h3>
 
     Git clone
     npm i / npm i --force (in case brute force is needed)
     npm run dev
 
-###Screenshots
+<h3>Screenshots</h3>
+
+<img src="src/assets/screenshoot/login.jpg" alt="Logo" height="180">
+Login Screen (if user dont have any token in browser's local storage will redirect to "/login")
+
+<img src="src/assets/screenshoot/homey.jpg" alt="Logo" height="180">
+After user login automatically navigate to "/", and supposedly cannot go to "/login"
+look at small magnifier at left top if you click it will expand search form
+
+<img src="src/assets/screenshoot/searchy.jpg" alt="Logo" height="180">
+Then you can hit "Save Filter" on the bottom sidebar to begin filtering user
+
+<img src="src/assets/screenshoot/exclude.jpg" alt="Logo" height="180">
+Try to add or remove tags in Include Tags by checking the checkbox in prefix Tags then hit middle button
+
+<img src="src/assets/screenshoot/search_name.jpg" alt="Logo" height="180">
+Search name is working
