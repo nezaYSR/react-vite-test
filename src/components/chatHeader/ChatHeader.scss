@@ -1,0 +1,12 @@
+.chat-header-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &-top {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 370px;
+  }
+}

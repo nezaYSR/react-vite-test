@@ -1,0 +1,48 @@
+.chat-card {
+  width: 100%;
+  &-content {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    &-id {
+      display: flex;
+      flex-direction: row;
+      &-photo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(78, 69, 69);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          height: 50px;
+        }
+      }
+
+      &-info {
+        margin-top: 5px;
+        margin-left: 15px;
+        width: 200px;
+        h4 {
+          font-family: Montserrat-Bold;
+          height: 8px;
+        }
+        p {
+          font-size: small;
+        }
+      }
+      &-msg {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        .bdg1 {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

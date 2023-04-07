@@ -1,0 +1,29 @@
+.parent {
+  h3 {
+    margin-top: 30px;
+  }
+  .sidebar-button {
+    margin-bottom: 30px;
+  }
+  .blur-collapse {
+    background: rgba(126, 147, 224, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(126, 147, 224, 0.3);
+    position: fixed;
+    height: 100vh;
+    z-index: 999;
+  }
+  .css-1wvake5.ps-collapsed {
+    width: 30px;
+    min-width: 30px;
+  }
+  .lot-btn {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    position: absolute;
+    z-index: 999999;
+  }
+}

@@ -1,0 +1,115 @@
+@import "../../sassStyles/typography";
+@import "../../sassStyles/variables";
+
+.bg {
+  background-image: url("../../assets/pexels-eberhard-grossgasteiger-1287145.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+
+  .exceptionbg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.38);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+  }
+
+  footer {
+    margin-top: -30px;
+    text-align: center;
+    color: $secondaryLight4Color;
+    :nth-child(1) {
+      font-family: "Quicksand-Regular";
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      height: 10px;
+    }
+    :nth-child(2) {
+      font-family: "Quicksand-Regular";
+      font-size: 12px;
+      letter-spacing: 0.1em;
+    }
+
+    a {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      font-family: "Quicksand-Regular";
+      color: $secondaryLight4Color;
+    }
+  }
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  h1 {
+    color: $warningColor;
+    font-family: "LeckerliOne";
+  }
+  &_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 55%;
+    min-height: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5%;
+
+    h2 {
+      color: $primaryDark2Color;
+      font-family: "Montserrat-Bold";
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      & > button {
+        height: 70px;
+        margin: 20px 0;
+      }
+
+      .my-text-field {
+        margin: 15px 0;
+      }
+    }
+
+    .my-link {
+      text-align: center;
+    }
+
+    #standard-basic {
+      height: 40px;
+    }
+
+    .signup {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

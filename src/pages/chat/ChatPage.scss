@@ -1,0 +1,24 @@
+.chat-page {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .sidebar {
+    z-index: 111;
+    position: fixed;
+    overflow-y: "scroll";
+    &.sidebar-collapsed {
+      margin-left: 18%;
+      width: 82%; /* adjust the width of the chat section when the sidebar is collapsed */
+    }
+  }
+  .chat {
+    width: 100%;
+    z-index: 0;
+    position: static;
+    overflow-y: "scroll";
+    &.sidebar-collapsed {
+      margin-left: 18%;
+      width: 82%; /* adjust the width of the chat section when the sidebar is collapsed */
+    }
+  }
+}
